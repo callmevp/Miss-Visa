@@ -73,41 +73,43 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/0f6b528a70ea1d928b96a.png), ɪᴍ visa ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
-"""
+PM_START_TEXT = """Hello, My name is ༒ 𝓥 𝓘 𝓢 𝓐 ༒
+Hey , I am a Group Manager,
+Made specially for Managing Groups.
+This Pro bot was made by [☬ ĆΔŁŁ Μ€ VƤ ☬](https://t.me/CALL_ME_VP)
+Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒ 𝓥 𝓘 𝓢 𝓐 ༒ TO YOUR GROUP ➕️", url="t.me/MissVisa_bot?startgroup=true"),
+            text="➕ ADD ༒   𝓥 𝓘 𝓢 𝓐 ༒ TO YOUR GROUP ➕", url="t.me/MissVisa_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(
-            text="🎵 MUSIC GROUP 🎧", url="https://t.me/WeGetTogether")
+        InlineKeyboardButton(text="📱ABOUT", callback_data="MissVisa_"),
+        InlineKeyboardButton(text="⚜️HELP", callback_data="help_back"),
     ],
-    [
+   [
         InlineKeyboardButton(
-            text="✨MY BF✨", url="http://t.me/CALL_ME_VP"),
+            text="🎵 MUSIC GROUP 🎧", url="http://t.me/WeGetTogether")
+   ],
+   [
+        InlineKeyboardButton(
+            text="✨MY OWNER✨", url="http://t.me/CALL_ME_VP"),
         InlineKeyboardButton(
             text="⚜️CHANNEL⚜️", url="https://t.me/MissVisa_Updates"),
     ],
-    [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="visa_"),
-        InlineKeyboardButton(
-            text="👥SUPPORT GROUP👥", url=" https://t.me/Visa_Support"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
-    ],
+    [  
+        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/Visa_Support"),
+    ], 
+    
 ]
 
-
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [https://telegra.ph/file/b8f790927f374f1a0750c.png) 
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+༒  𝓥 𝓘 𝓢 𝓐 ༒ WITH NEW FEATURES
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF  𝓥 𝓘 𝓢 𝓐 *꧂
+𖣘 *All commands can either be used with* / *or* !.
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Visa_Support*
+"""
 
 visa_IMG = "https://telegra.ph/file/0055c89a8b09a9aa93117.png"
 
