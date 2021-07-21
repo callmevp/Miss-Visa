@@ -81,12 +81,22 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ visa ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MissVisa_bot?startgroup=true"),
+            text="➕️ ADD ༒ 𝓥 𝓘 𝓢 𝓐 ༒ TO YOUR GROUP ➕️", url="t.me/MissVisa_bot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="🎵 MUSIC GROUP 🎧", url="https://t.me/WeGetTogether")
+    ],
+    [
+        InlineKeyboardButton(
+            text="✨MY BF✨", url="http://t.me/CALL_ME_VP"),
+        InlineKeyboardButton(
+            text="⚜️CHANNEL⚜️", url="https://t.me/MissVisa_Updates"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="visa_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="👥SUPPORT GROUP👥", url=" https://t.me/Visa_Support"
         ),
     ],
     [
