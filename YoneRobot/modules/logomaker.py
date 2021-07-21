@@ -1,6 +1,6 @@
-from MissVisa.events import register
-from MissVisa import OWNER_ID
-from MissVisa import telethn as tbot
+from YoneRobot.events import register
+from YoneRobot import OWNER_ID
+from YoneRobot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 
