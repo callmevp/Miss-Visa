@@ -74,12 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT =
-sync def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CSO7PoAABC_1qYQgsx8FbmzQalpMlp6uZGiG4kVkAAsIDAAL6TyFUxXUQL972aR0gBA")
-    await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-"""Hello, My name is ༒ 𝓥 𝓘 𝓢 𝓐 ༒
+PM_START_TEXT = """Hello, My name is ༒ 𝓥 𝓘 𝓢 𝓐 ༒
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 This Pro bot was made by [☬ ĆΔŁŁ Μ€ VƤ ☬](https://t.me/CALL_ME_VP)
