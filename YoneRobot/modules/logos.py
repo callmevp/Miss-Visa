@@ -90,7 +90,7 @@ async def lego(event):
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
-    font = ImageFont.truetype(random.choice(FONTS)), 1000
+    font = ImageFont.truetype(random.choice(FONTS), 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
