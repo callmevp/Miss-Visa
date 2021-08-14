@@ -119,4 +119,4 @@ __help__ = """
 
 __mod_name__ = "💞Logo💞"
 
-© 2021 GitHub,
+
