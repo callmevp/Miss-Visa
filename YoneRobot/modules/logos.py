@@ -1,6 +1,6 @@
-from Sophia.events import register
-from Sophia import OWNER_ID
-from Sophia import telethn as tbot
+from YoneRobot.events import register
+from YoneRobot import OWNER_ID
+from YoneRobot import telethn as tbot
 
 import os 
 from PIL import Image, ImageDraw, ImageFont
