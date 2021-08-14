@@ -126,7 +126,7 @@ async def lego(event):
  await event.reply('Creating your logo...')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./Sophia/etc/blackbg.jpg')
+    img = Image.open(random.choice(TELEGRAPH_MEDIA_LINKS))
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
