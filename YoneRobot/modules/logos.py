@@ -105,3 +105,18 @@ async def lego(event):
             os.remove(fname2)
  except Exception as e:
    await event.reply(f'Error Go to Help From  @VISA_SUPPORT, {e}')
+
+    
+__help__ = """
+
+ ~ /logo {text} :  Create random logo with your text
+
+
+
+
+
+ """
+
+__mod_name__ = "💞Logo💞"
+
+© 2021 GitHub, Inc.
