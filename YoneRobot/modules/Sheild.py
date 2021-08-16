@@ -11,22 +11,22 @@ from better_profanity import profanity
 from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
-from love.conf import get_int_key, get_str_key
-from love import BOT_ID
+from YoneRobot.conf import get_int_key, get_str_key
+from YoneRobot import BOT_ID
  
 
-# from love.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from love.pyrogramee.telethonbasics import is_admin
-from love.events import register
-from love import MONGO_DB_URI 
+# from YoneRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from YoneRobot.pyrogramee.telethonbasics import is_admin
+from YoneRobot.events import register
+from YoneRobot import MONGO_DB_URI 
 from pymongo import MongoClient
-from love.modules.sql_extended.nsfw_watch_sql import (
+from YoneRobot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from love import telethn as tbot
+from YoneRobot import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
@@ -35,7 +35,7 @@ MONGO_DB_URI = get_str_key("MONGO_DB_URI")
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["love"]
+db = client["YoneRobot"]
 
 async def is_nsfw(event):
     lmao = event
